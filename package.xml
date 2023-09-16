@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>solution_package</name>
+  <version>0.0.0</version>
+  <description>ROS 2 package for chasing turtles</description>
+  <maintainer email="email@example.com">Reflect</maintainer>
+  <license>TODO: License declaration</license>
+
+  <depend>rclpy</depend>
+  <depend>turtlesim</depend>
+  <depend>geometry_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
